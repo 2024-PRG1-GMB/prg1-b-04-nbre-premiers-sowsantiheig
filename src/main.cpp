@@ -13,6 +13,11 @@ int main() {
   int foundCount; // amount of prime numbers found, used for output formatting
   char restartChar;
 
+  std::cout << "=====================================================\n";
+  std::cout << "= Ce programme affiche tous les nombres premiers    =\n";
+  std::cout << "= compris entre 1 et la valeur entrée.              =\n";
+  std::cout << "=====================================================\n";
+
   do {
     // reset user limit and number of prime numbers found
     limit = 0;
